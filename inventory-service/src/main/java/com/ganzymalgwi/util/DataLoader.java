@@ -1,7 +1,7 @@
 package com.ganzymalgwi.util;
 
-import com.programmingtechie.inventoryservice.model.Inventory;
-import com.programmingtechie.inventoryservice.repository.InventoryRepository;
+import com.ganzymalgwi.model.Inventory;
+import com.ganzymalgwi.repository.InventoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

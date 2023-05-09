@@ -1,7 +1,7 @@
-package com.programmingtechie.productservice.util;
+package com.ganzymalgwi.util;
 
-import com.programmingtechie.productservice.model.Product;
-import com.programmingtechie.productservice.repository.ProductRepository;
+import com.ganzymalgwi.model.Product;
+import com.ganzymalgwi.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -23,6 +23,8 @@ public class DataLoader implements CommandLineRunner {
             product.setPrice(BigDecimal.valueOf(1000));
 
             productRepository.save(product);
+
+
         }
     }
 }

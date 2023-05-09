@@ -1,9 +1,9 @@
 package com.ganzymalgwi.service;
 
-import com.programmingtechie.productservice.dto.ProductRequest;
-import com.programmingtechie.productservice.dto.ProductResponse;
-import com.programmingtechie.productservice.model.Product;
-import com.programmingtechie.productservice.repository.ProductRepository;
+import com.ganzymalgwi.dto.ProductRequest;
+import com.ganzymalgwi.dto.ProductResponse;
+import com.ganzymalgwi.model.Product;
+import com.ganzymalgwi.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

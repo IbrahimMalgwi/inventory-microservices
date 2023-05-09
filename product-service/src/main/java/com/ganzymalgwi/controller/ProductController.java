@@ -1,8 +1,8 @@
 package com.ganzymalgwi.controller;
 
-import com.programmingtechie.productservice.dto.ProductRequest;
-import com.programmingtechie.productservice.dto.ProductResponse;
-import com.programmingtechie.productservice.service.ProductService;
+import com.ganzymalgwi.dto.ProductRequest;
+import com.ganzymalgwi.dto.ProductResponse;
+import com.ganzymalgwi.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
